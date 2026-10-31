@@ -1,0 +1,1208 @@
+{
+ "simple": {
+  "anchor": "2026-09-19",
+  "offDay": "Friday",
+  "weeks": [
+   {
+    "week": 1,
+    "days": {
+     "Saturday": {
+      "breakfast": "OATMEAL MUFFINS",
+      "breakfast_opt": "HUMMUS W/ BREAD",
+      "lunch": "BEEF MAQLUBA",
+      "lunch_opt": "ASIAN GRILLED CHICKEN",
+      "dinner": "CHICKEN FAJITA WRAP",
+      "dinner_opt": "MUTABAQ CHICKEN",
+      "amsnack": "CHOCOLATE MUFFINS",
+      "amsnack_opt": "CHOCO CHIA PUDDING",
+      "pmsnack": "PINK SALAD",
+      "pmsnack_opt": "CORN SOUP"
+     },
+     "Sunday": {
+      "breakfast": "EGG QUESADILLA",
+      "breakfast_opt": "CHEESE FATAYER",
+      "lunch": "CHICKEN PINK PASTA",
+      "lunch_opt": "CHICKEN KABSA",
+      "dinner": "CLASSIC BURGER",
+      "dinner_opt": "ALMOND CHICKEN",
+      "amsnack": "LAZY CAKE",
+      "amsnack_opt": "UM ALI",
+      "pmsnack": "TABOULEH W/ QUINOA SALAD",
+      "pmsnack_opt": "PINEAPPLE SLICES"
+     },
+     "Monday": {
+      "breakfast": "OATMEAL W/ BERRIES & PEANUTBUTTER",
+      "breakfast_opt": "EGG W/ MUSHROOM",
+      "lunch": "CHICKEN SAFFRON RISSOTO",
+      "lunch_opt": "SALMON SUSHI PLATTER",
+      "dinner": "CHICKEN SHAWARMA SANDWICH",
+      "dinner_opt": "VEGGIE BEEF W/ RICE",
+      "amsnack": "BOUNTY",
+      "amsnack_opt": "BLUEBERRY MUFFINS",
+      "pmsnack": "MUSHROOM SOUP",
+      "pmsnack_opt": "FATTOUSH SALAD"
+     },
+     "Tuesday": {
+      "breakfast": "SPINACH FATAYER",
+      "breakfast_opt": "SHAKSHUKA W/ BREAD",
+      "lunch": "CHICKEN BIRYANI",
+      "lunch_opt": "CHICKEN KOUSHARI",
+      "dinner": "SHIMP FAJITA WRAP",
+      "dinner_opt": "PERSIAN CHICKEN",
+      "amsnack": "MATCHA BALLS",
+      "amsnack_opt": "BASBOUSA TART",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "GRILLED VEGGIE SALAD"
+     },
+     "Wednesday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "TURKEY SANDWICH",
+      "lunch": "VEGGIE CHICKEN W/ RICE",
+      "lunch_opt": "CAJUN CHICKEN",
+      "dinner": "BEEF BOLOGNESE",
+      "dinner_opt": "LEMON PEPPER CHICKEN",
+      "amsnack": "CHOCO RICE CAKE",
+      "amsnack_opt": "DATE BALLS",
+      "pmsnack": "GREEN SALAD",
+      "pmsnack_opt": "LENTIL SOUP"
+     },
+     "Thursday": {
+      "breakfast": "HALLOUMI ZA'ATAR WRAP",
+      "breakfast_opt": "CROISSANT W/ SCRAMBLED EGG",
+      "lunch": "RED BASIL PASTA",
+      "lunch_opt": "CHICKEN W/ GREEN SAUCE",
+      "dinner": "SALMON MACHBOOS",
+      "dinner_opt": "SHEESH TAWOOQ",
+      "amsnack": "SHOGAG CUPCAKE",
+      "amsnack_opt": "PEANUTBUTTER BALLS",
+      "pmsnack": "MIX BERRIES",
+      "pmsnack_opt": "PINK SALAD"
+     }
+    }
+   },
+   {
+    "week": 2,
+    "days": {
+     "Saturday": {
+      "breakfast": "EGG W/ MUSHROOM",
+      "breakfast_opt": "CROISSANT W/ TURKEY",
+      "lunch": "PASTA BOLOGNESE",
+      "lunch_opt": "ASIAN GRILLED CHICKEN",
+      "dinner": "CHICKEN FAJITA WRAP",
+      "dinner_opt": "CHICKEN TIKKA W/ BUKHARI RICE",
+      "amsnack": "VANILLA MUFFINS",
+      "amsnack_opt": "MILK CAKE",
+      "pmsnack": "GREEN SAUCE SALAD",
+      "pmsnack_opt": "CHICKEN MADROUBA"
+     },
+     "Sunday": {
+      "breakfast": "OATMEAL W/ RASPBERRY JAM",
+      "breakfast_opt": "SPINACH FATAYER",
+      "lunch": "SHRIMP BIRYANI",
+      "lunch_opt": "LEMON PEPPER CHICKEN",
+      "dinner": "PERSIAN CHICKEN",
+      "dinner_opt": "CHICKEN RANCH PIZZA",
+      "amsnack": "BOUNTY",
+      "amsnack_opt": "CHOCO CHIA PUDDING",
+      "pmsnack": "GRILLED VEGGIE SALAD",
+      "pmsnack_opt": "ASIAN CHICKEN SOUP"
+     },
+     "Monday": {
+      "breakfast": "CROISSANT W/ SCRAMBLED EGG",
+      "breakfast_opt": "PARFAIT W/ GRANOLA, HONEY & BERRIES",
+      "lunch": "CHICKEN TAJEN",
+      "lunch_opt": "CHICKEN KEBAB W/ GREEN RICE",
+      "dinner": "BEEF PESTO WRAP",
+      "dinner_opt": "CHICKEN ALFREDO PASTA",
+      "amsnack": "CINNAMON TWIST BREAD",
+      "amsnack_opt": "MOHALABIYA",
+      "pmsnack": "FATTOUSH SALAD",
+      "pmsnack_opt": "PINEAPPLE SLICES"
+     },
+     "Tuesday": {
+      "breakfast": "HUMMUS W/ BREAD",
+      "breakfast_opt": "TURKEY SANDWICH",
+      "lunch": "GRILLED KOFTAH W/ POTATO & RICE",
+      "lunch_opt": "CHICKEN SAFFRON RISSOTO",
+      "dinner": "CRISPY CHICKEN WRAP",
+      "dinner_opt": "MUTABAQ TUNA",
+      "amsnack": "COCONUT CHEESECAKE",
+      "amsnack_opt": "PEANUTBUTTER BALLS",
+      "pmsnack": "TABOULEH W/ QUINOA SALAD",
+      "pmsnack_opt": "VEGGIE W/ VERCELLI SOUP"
+     },
+     "Wednesday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "EGG WRAP ROLL",
+      "lunch": "VEGGIE BEEF W/ RICE",
+      "lunch_opt": "CORIANDER & LIME CHICKEN",
+      "dinner": "CHICKEN SHAWARMA SANDWICH",
+      "dinner_opt": "GRILLED CHICKEN PASTA",
+      "amsnack": "GRANOLA BAR W/",
+      "amsnack_opt": "DATE BALL",
+      "pmsnack": "GREEN SALAD",
+      "pmsnack_opt": "ZA'ATAR RICE POP CRACKER"
+     },
+     "Thursday": {
+      "breakfast": "OATMEAL W/ BERRIES & PEANUTBUTTER",
+      "breakfast_opt": "ZA'ATAR FATAYER",
+      "lunch": "CHICKEN MACHBOOS",
+      "lunch_opt": "CHICKEN W/ GREEN SAUCE",
+      "dinner": "CLASSIC BURGER",
+      "dinner_opt": "SALMON PATTY W/ LEMON SAUCE",
+      "amsnack": "BASBOUSA TART",
+      "amsnack_opt": "LAZY CAKE",
+      "pmsnack": "GRILLED VEGGIE SALAD",
+      "pmsnack_opt": "LENTIL SOUP"
+     }
+    }
+   },
+   {
+    "week": 3,
+    "days": {
+     "Saturday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "SHAKSHUKA W/ BREAD",
+      "lunch": "FETTUCCINI PASTA",
+      "lunch_opt": "TUNA SANDWICH",
+      "dinner": "CHICKEN TIKKA W/ BUKHARI RICE",
+      "dinner_opt": "STUFFED BELLPEPPER",
+      "amsnack": "BLUEBERRY MUFFINS",
+      "amsnack_opt": "CHOCO CHIA PUDDING",
+      "pmsnack": "FATTOUSH SALAD",
+      "pmsnack_opt": "LENTIL SOUP"
+     },
+     "Sunday": {
+      "breakfast": "HUMMUS W/ BREAD",
+      "breakfast_opt": "SPINACH FATAYER",
+      "lunch": "SALMON MACHBOOS",
+      "lunch_opt": "SHEESH TAWOOQ",
+      "dinner": "GRILLED CHICKEN PASTA",
+      "dinner_opt": "CRISPY CHICKEN WRAP",
+      "amsnack": "MANGO MOUSSE",
+      "amsnack_opt": "LAZY CAKE",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "TABOULEH W/ QUINOA SALAD"
+     },
+     "Monday": {
+      "breakfast": "OATMEAL MUFFINS",
+      "breakfast_opt": "TURKEY SANDWICH",
+      "lunch": "CHICKEN KOUSHARI",
+      "lunch_opt": "THAI GRILLED CHICKEN",
+      "dinner": "BEEF MUSHROOM SWISS BURGER",
+      "dinner_opt": "CORIANDER & LIME CHICKEN",
+      "amsnack": "BOUNTY",
+      "amsnack_opt": "SHOUGAG CUPCAKE",
+      "pmsnack": "CORN SOUP",
+      "pmsnack_opt": "PINK SALAD"
+     },
+     "Tuesday": {
+      "breakfast": "EGG W/ MUSHROOM",
+      "breakfast_opt": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "lunch": "SHRIMP BIRYANI",
+      "lunch_opt": "CHICKEN W/ GREEN SAUCE",
+      "dinner": "VEGGIE CHICKEN W/ RICE",
+      "dinner_opt": "CHICKEN FAJITA",
+      "amsnack": "DATE BALLS",
+      "amsnack_opt": "VANILLA MUFFINS",
+      "pmsnack": "MUSHROOM SOUP",
+      "pmsnack_opt": "GRILLED VEGGIE SALAD"
+     },
+     "Wednesday": {
+      "breakfast": "ZA'ATAR FATAYER",
+      "breakfast_opt": "EGG WRAP ROLL",
+      "lunch": "MUTABAQ CHICKEN",
+      "lunch_opt": "ASIAN GRILLED CHICKEN",
+      "dinner": "CHICKEN ALFREDO PASTA",
+      "dinner_opt": "DAOWD BASHA",
+      "amsnack": "LAZY CAKE",
+      "amsnack_opt": "CHOCO CRUNCH COOKIES",
+      "pmsnack": "PINEAPPLE SLICES",
+      "pmsnack_opt": "FATTOUSH SALAD"
+     },
+     "Thursday": {
+      "breakfast": "CROISSANT W/ SCRAMBLED EGG",
+      "breakfast_opt": "OATMEAL W/ RASPBERRY JAM",
+      "lunch": "CHICKEN TAJEN",
+      "lunch_opt": "CAJUN CHICKEN",
+      "dinner": "CHICKEN SHAWARMA SANDWICH",
+      "dinner_opt": "BEEF BIRYANI",
+      "amsnack": "MATCHA BALLS",
+      "amsnack_opt": "CHOCO RICE CAKE",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "MIX BERRIES"
+     }
+    }
+   },
+   {
+    "week": 4,
+    "days": {
+     "Saturday": {
+      "breakfast": "TURKEY SANDWICH",
+      "breakfast_opt": "OATMEAL MUFFINS",
+      "lunch": "SALMON DILL PASTA",
+      "lunch_opt": "ALMOND CHICKEN",
+      "dinner": "VEGGIE BEEF W/ RICE",
+      "dinner_opt": "ASIAN GRILLED CHICKEN",
+      "amsnack": "CHOCO RICE CAKE",
+      "amsnack_opt": "BERRIES CHEESECAKE",
+      "pmsnack": "CORN SOUP",
+      "pmsnack_opt": "ZA'ATAR RICE POP CRACKER"
+     },
+     "Sunday": {
+      "breakfast": "CLUB SANDWICH",
+      "breakfast_opt": "PARFAIT W/ BERRIES, GRANOLA & HONEY",
+      "lunch": "PERSIAN CHICKEN",
+      "lunch_opt": "SPANISH CHICKEN",
+      "dinner": "CLASSIC BURGER",
+      "dinner_opt": "CHICKEN PINK PASTA",
+      "amsnack": "BASBOUSA TART",
+      "amsnack_opt": "DATE BALLS",
+      "pmsnack": "FATTOUSH SALAD",
+      "pmsnack_opt": "MIX BERRIES"
+     },
+     "Monday": {
+      "breakfast": "HALLOUMI ZA'ATAR WRAP",
+      "breakfast_opt": "WAFFLES W/ BERRIES & MAPLE SYRUP",
+      "lunch": "CHICKEN MACHBOOS",
+      "lunch_opt": "BLACKENED SALMON",
+      "dinner": "RED BASIL PASTA",
+      "dinner_opt": "CHICKEN W/ GREEN SAUCE",
+      "amsnack": "CHOCOLATE CRUNCH COOKIES",
+      "amsnack_opt": "SHOUGAG CUP CAKE",
+      "pmsnack": "PINEAPPLE SLICES",
+      "pmsnack_opt": "LENTIL SOUP"
+     },
+     "Tuesday": {
+      "breakfast": "OATMEAL W/ RASPBERRY JAM",
+      "breakfast_opt": "CROISSANT W/ SCRAMBLED EGG",
+      "lunch": "TRADITIONAL PASTA",
+      "lunch_opt": "CAJUN CHICKEN",
+      "dinner": "BEEF QUESADILLA",
+      "dinner_opt": "LEMON PEPPER CHICKEN",
+      "amsnack": "BOUNTY",
+      "amsnack_opt": "CHOCO CHIA PUDDING",
+      "pmsnack": "PINK SALAD",
+      "pmsnack_opt": "SALTED RICE POP CRACKER"
+     },
+     "Wednesday": {
+      "breakfast": "SHAKSHUKA W/ BREAD",
+      "breakfast_opt": "ZA'ATAR FATAYER",
+      "lunch": "CHICKEN SAFFRON RISSOTO",
+      "lunch_opt": "BEEF MAQLUBA",
+      "dinner": "CHICKEN RANCH PIZZA",
+      "dinner_opt": "CHICKEN TAJEN",
+      "amsnack": "CINNAMON TWIST BREAD",
+      "amsnack_opt": "MOHALABIYA",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "TABOULEH W/ QUINOA SALAD"
+     },
+     "Thursday": {
+      "breakfast": "CROISSANT W/ TURKEY",
+      "breakfast_opt": "EGG WRAP ROLL",
+      "lunch": "VEGGIE CHICKEN W/ RICE",
+      "lunch_opt": "CHICKEN PASTA SALAD",
+      "dinner": "BEEF MUSHROOM SWISS BURGER",
+      "dinner_opt": "SALMON PATTY W/ LEMON SAUCE",
+      "amsnack": "GRANOLA BAR W/",
+      "amsnack_opt": "DATE BALLS",
+      "pmsnack": "GRILLED VEGGIE SALAD",
+      "pmsnack_opt": "CORN SOUP"
+     }
+    }
+   }
+  ]
+ },
+ "macro": {
+  "anchor": "2026-10-03",
+  "offDay": null,
+  "weeks": [
+   {
+    "week": 1,
+    "days": {
+     "Saturday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "EGG SHAKSHUKA",
+      "lunch": "STUFFED BELLPEPPER W/ RICE",
+      "lunch_opt": {
+       "classic": "CHICKEN TIKKA W/ BUKHARI RICE",
+       "hp": "CREAMY CHICKEN TAGLIATELLE PASTA"
+      },
+      "dinner": "TUNA SANDWICH",
+      "dinner_opt": {
+       "classic": "GRILLED CHICKEN W/ SUNDRDIED TOMATO SAUCE",
+       "hp": "SALMON PROTEIN SALAD"
+      },
+      "amsnack": "CHOCOLATE CHIA PUDDING",
+      "amsnack_opt": "BLUEBERRY MUFFINS",
+      "pmsnack": "BROCCOLI SOUP",
+      "pmsnack_opt": "HALLOUMI SALAD"
+     },
+     "Sunday": {
+      "breakfast": "PANCAKE W/ MAPLE & BERRIES",
+      "breakfast_opt": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "lunch": "SALMON MACHBOOS",
+      "lunch_opt": {
+       "classic": "GRILLED CHICKEN PASTA",
+       "hp": "BEEF MAQLUBA"
+      },
+      "dinner": "CHICKEN VEGGIES STIR FRY",
+      "dinner_opt": {
+       "classic": "CRISPY CHICKEN WRAP",
+       "hp": "BEEF PROTEIN SALAD"
+      },
+      "amsnack": "MANGO MOUSSE",
+      "amsnack_opt": "LAZY CAKE",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "PUMPKIN SOUP"
+     },
+     "Monday": {
+      "breakfast": "EGG TOAST",
+      "breakfast_opt": "OATMEAL MUFFINS",
+      "lunch": "CHICKEN GREEN CURRY",
+      "lunch_opt": {
+       "classic": "THAI CHICKEN W RICE",
+       "hp": "CHICKEN KOUSHARI"
+      },
+      "dinner": "BEEF MUSHROOM SWISS BURGER",
+      "dinner_opt": {
+       "classic": "CORIANDER & LIME CHICKEN W/ POTATO",
+       "hp": "CHICKEN COLESLAW SALAD"
+      },
+      "amsnack": "SEMOLINA KUNAFA",
+      "amsnack_opt": "BOUNTY",
+      "pmsnack": "TACO SOUP",
+      "pmsnack_opt": "CAESAR SALAD"
+     },
+     "Tuesday": {
+      "breakfast": "LABNEH ZA’ATAR SAMOSA",
+      "breakfast_opt": "EGG W/ MUSHROOM",
+      "lunch": "SHRIMP BIRYANI",
+      "lunch_opt": {
+       "classic": "CHICKEN QIDRA",
+       "hp": "VEGGIE CHICKEN W/ RICE"
+      },
+      "dinner": "CHICKEN FAJITA W/ RICE",
+      "dinner_opt": {
+       "classic": "GRILLED CHICKEN W/ GREEN SAUCE & RICE",
+       "hp": "BEEF  BURRITO SALAD"
+      },
+      "amsnack": "PISTACHIO YOGURT CAKE",
+      "amsnack_opt": "RASPBERRY MOUSSE",
+      "pmsnack": "CRISPY RICE SALAD",
+      "pmsnack_opt": "MUSHROOM SOUP"
+     },
+     "Wednesday": {
+      "breakfast": "ZA’ATAR FATAYER",
+      "breakfast_opt": "WAFFLE W/ MAPLE & BERRIES",
+      "lunch": "CHICKEN ALFREDO PASTA",
+      "lunch_opt": {
+       "classic": "MUTABAQ CHICKEN",
+       "hp": "DAOWD BASHA"
+      },
+      "dinner": "CHEESY KEEMA SANDWICH",
+      "dinner_opt": {
+       "classic": "ASIAN GRILLED CHICKEN W/ RICE",
+       "hp": "CHICKEN RANCH PIZZA"
+      },
+      "amsnack": "CHOCO DATES CAKE",
+      "amsnack_opt": "CHOCO GRANOLA BAR",
+      "pmsnack": "FATTOUSH SALAD",
+      "pmsnack_opt": "RED QUINOA SALAD"
+     },
+     "Thursday": {
+      "breakfast": "OATMEAL W/ RASPBERRY JAM",
+      "breakfast_opt": "CROISSANT W/ HALLOUMI , SUNDRIED &  PESTO SAUCE",
+      "lunch": "CHICKEN TAJEN",
+      "lunch_opt": {
+       "classic": "BEEF BIRYANI",
+       "hp": "FRIED SALMON W/ TERIYAKI SAUCE"
+      },
+      "dinner": "CHICKEN SHAWARMA SANDWICH",
+      "dinner_opt": {
+       "classic": "CAJUN CHICKEN W/ POTATO",
+       "hp": "CHICKEN FETA SALAD"
+      },
+      "amsnack": "CHOCOLATE RICE CAKE",
+      "amsnack_opt": "BLUEBERRY CHEESECAKE BITES",
+      "pmsnack": "MEDDITERRANEAN SALAD",
+      "pmsnack_opt": "GREEN SALAD"
+     },
+     "Friday": {
+      "breakfast": "CHEESE FATAYER",
+      "breakfast_opt": "ZA’ATAR OMELLETTE",
+      "lunch": "CHICKEN SHARMA PLATTER",
+      "lunch_opt": {
+       "classic": "CORIANDER LEMON WHITE FISH",
+       "hp": "TRADITIONAL PASTA"
+      },
+      "dinner": "SPANISH CHICKEN",
+      "dinner_opt": {
+       "classic": "SHEESH TAWOOQ W/ BUKHARI RICE",
+       "hp": "LEMON GINGER WRAP"
+      },
+      "amsnack": "PEANUTBUTTER BALLS",
+      "amsnack_opt": "MILK CAKE",
+      "pmsnack": "ROCCA SALAD",
+      "pmsnack_opt": "GREEK  SALAD"
+     }
+    }
+   },
+   {
+    "week": 2,
+    "days": {
+     "Saturday": {
+      "breakfast": "EGG TACOS",
+      "breakfast_opt": "TURKEY SANDWICH",
+      "lunch": "SALMON DILL PASTA",
+      "lunch_opt": {
+       "classic": "CHICKEN KEBAB W/ GREEN RICE",
+       "hp": "GRILLED CHICKEN PASTA"
+      },
+      "dinner": "ALMOND CHICKEN",
+      "dinner_opt": {
+       "classic": "THAI CHICKEN W/ RICE",
+       "hp": "BEEF BURRITO SALAD"
+      },
+      "amsnack": "VANILLA MUFFINS",
+      "amsnack_opt": "CHOCO MINI PANCAKE",
+      "pmsnack": "CORN SOUP",
+      "pmsnack_opt": "PINK SALAD"
+     },
+     "Sunday": {
+      "breakfast": "CLUB SANDWICH",
+      "breakfast_opt": "PARFAIT W/ GRANOLA, HONEY & BERRIES",
+      "lunch": "PERSIAN CHICKEN",
+      "lunch_opt": {
+       "classic": "CHICKEN PINK PASTA",
+       "hp": "BEEF W/ COUSCOUS"
+      },
+      "dinner": "CLASSIC BURGER",
+      "dinner_opt": {
+       "classic": "CHICKEN FAJITA WRAP",
+       "hp": "VEGGIE CHICKEN  SALAD"
+      },
+      "amsnack": "MATCHA BALLS",
+      "amsnack_opt": "BASBOUSA TART",
+      "pmsnack": "BABAGANOUSH SALAD",
+      "pmsnack_opt": "CHICKEN MADROUBA"
+     },
+     "Monday": {
+      "breakfast": "HALLOUMI ZA’ATAR WRAP",
+      "breakfast_opt": "SPINACH FATAYER",
+      "lunch": "CHICKEN MACHBOOS",
+      "lunch_opt": {
+       "classic": "RED BASIL PASTA",
+       "hp": "BLACKENED SALMON"
+      },
+      "dinner": "CHEESE KEEMA SANDWICH",
+      "dinner_opt": {
+       "classic": "GRILLED CHICKEN W/ GREEN SAUCE & RICE",
+       "hp": "CHICKEN BURRITO SALAD"
+      },
+      "amsnack": "BERRIES CHEESE CAKE",
+      "amsnack_opt": "PISTACHIO YOGURT CAKE",
+      "pmsnack": "GREEK SALAD",
+      "pmsnack_opt": "POTATO SOUP"
+     },
+     "Tuesday": {
+      "breakfast": "OATMEAL W/ W/ PEANUTBUTTER & BERRIES",
+      "breakfast_opt": "CROISSANT W/ SCRAMBLED EGG",
+      "lunch": "TRADITIONAL PASTA",
+      "lunch_opt": {
+       "classic": "CHICKEN KABSA",
+       "hp": "SHRIMP BIRYANI"
+      },
+      "dinner": "CAJUN CHICKEN",
+      "dinner_opt": {
+       "classic": "BEEF QUESADILLA",
+       "hp": "FETA CHICKEN SALAD"
+      },
+      "amsnack": "MILK CAKE",
+      "amsnack_opt": "GRANOLA BAR",
+      "pmsnack": "THAI CURRY SOUP",
+      "pmsnack_opt": "MEDITERRANEAN SALAD"
+     },
+     "Wednesday": {
+      "breakfast": "EGG SHAKSHUKA",
+      "breakfast_opt": "ZA’ATAR FATAYER",
+      "lunch": "CHICKEN QIDRA",
+      "lunch_opt": {
+       "classic": "SALMON PESTOCHURRI PASTA",
+       "hp": "BEEF MAQLUBA"
+      },
+      "dinner": "SWEET & SOUR CHICKEN",
+      "dinner_opt": {
+       "classic": "CHICKEN RANCH PIZZA",
+       "hp": "BEEF PROTEIN SALAD"
+      },
+      "amsnack": "CINNAMON TWIST BREAD",
+      "amsnack_opt": "MOHALABIYA",
+      "pmsnack": "GREEN SALAD",
+      "pmsnack_opt": "ROCCA SALAD"
+     },
+     "Thursday": {
+      "breakfast": "LABNEH ZA’ATAR SAMOSA",
+      "breakfast_opt": "CROISSANT W/ TURKEY",
+      "lunch": "CHICKEN FETTUCCINI PASTA",
+      "lunch_opt": {
+       "classic": "VEGGIE CHICKEN W/ RICE",
+       "hp": "BEEF BOLOGNESE"
+      },
+      "dinner": "BEEF MUSHROOM SWISS BURGER",
+      "dinner_opt": {
+       "classic": "CHICKEN PASTA SALAD",
+       "hp": "SHRIMP MANGO KALE SALAD"
+      },
+      "amsnack": "SEMOLINA KUNAFA",
+      "amsnack_opt": "PISTACHIO MINI PANCAKE",
+      "pmsnack": "FETA CHEESE PASTA SALAD",
+      "pmsnack_opt": "CORN SOUP"
+     },
+     "Friday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "EGG WRAP",
+      "lunch": "GRILLED KOFTAH W/ POTATO & RICE",
+      "lunch_opt": {
+       "classic": "CHICKEN GREEN CURRY",
+       "hp": "GRILLED CHICKEN PASTA"
+      },
+      "dinner": "CHICKEN W/ MUSHROOM SAUCE & RICE",
+      "dinner_opt": {
+       "classic": "CRISPY CHICKEN WRAP",
+       "hp": "VEGGIE CHICKEN SALAD"
+      },
+      "amsnack": "CHOCO CHIA PUDDING",
+      "amsnack_opt": "DATE BALLS",
+      "pmsnack": "CAESAR SALAD",
+      "pmsnack_opt": "FATTOUSH SALAD"
+     }
+    }
+   },
+   {
+    "week": 3,
+    "days": {
+     "Saturday": {
+      "breakfast": "OATMEAL MUFFINS",
+      "breakfast_opt": "HUMMUS W/ BROWN BREAD",
+      "lunch": "MUTABAQ CHICKEN",
+      "lunch_opt": {
+       "classic": "BEEF MAQLUBA",
+       "hp": "GRILLED SHRIMP W/ CHERMOULA SAUCE"
+      },
+      "dinner": "CHEESY KEEMA SANDWICH",
+      "dinner_opt": {
+       "classic": "THAI CHICKEN W/ RICE",
+       "hp": "CHICKEN BURRITO SALAD"
+      },
+      "amsnack": "CHOCOLATE MUFFINS",
+      "amsnack_opt": "PISTACHIO CAKE",
+      "pmsnack": "PINK SALAD",
+      "pmsnack_opt": "PUMPKIN SOUP"
+     },
+     "Sunday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "WAFFLE W/ MAPLE & BERRIES",
+      "lunch": "SHARRY W/ YELLOW RICE",
+      "lunch_opt": {
+       "classic": "CHICKEN PINK PASTA",
+       "hp": "CHICKEN KABSA"
+      },
+      "dinner": "CLASSIC BEEF BURGER",
+      "dinner_opt": {
+       "classic": "GRILLED CHICKEN W/ SUNDRIED TOMATO SAUCE & RICE",
+       "hp": "CHICKEN PROTEIN SALAD"
+      },
+      "amsnack": "LAZY CAKE",
+      "amsnack_opt": "UM ALI",
+      "pmsnack": "RED QUINOA SALAD",
+      "pmsnack_opt": "GREEK  SALAD"
+     },
+     "Monday": {
+      "breakfast": "EGG TOAST",
+      "breakfast_opt": "OATMEAL W/ BERRIES & PEANUTBUTTER",
+      "lunch": "CHICKEN SAFFRON RISOTTO",
+      "lunch_opt": {
+       "classic": "PASTA BECHAMEL",
+       "hp": "SALMON SUSHI PLATTER"
+      },
+      "dinner": "CORIANDER & LIME CHICKEN W/ POTATO",
+      "dinner_opt": {
+       "classic": "CHICKEN SHAWARMA SANDWICH",
+       "hp": "FETA CHICKEN  PRO  SALAD"
+      },
+      "amsnack": "MATCHA BALLS",
+      "amsnack_opt": "BLUEBERRY MUFFINS",
+      "pmsnack": "CAESAR SALAD",
+      "pmsnack_opt": "HALLOUMI SALAD"
+     },
+     "Tuesday": {
+      "breakfast": "LABNEH ZA’ATAR SAMOSA",
+      "breakfast_opt": "SPINACH FATAYER",
+      "lunch": "GRILLED THAI BEEF W/ RICE",
+      "lunch_opt": {
+       "classic": "CHICKEN BIRYANI",
+       "hp": "CHICKEN ALFREDO PASTA"
+      },
+      "dinner": "CRISPY CHICKEN WRAP",
+      "dinner_opt": {
+       "classic": "SHRIMP FAJITA WRAP",
+       "hp": "BEEF PROTEIN SALAD"
+      },
+      "amsnack": "TIRAMISU OVERNIGHT OATMEAL",
+      "amsnack_opt": "DATE BALLS",
+      "pmsnack": "MEDITERRANEAN SALAD",
+      "pmsnack_opt": "ZA’ATAR RICE POP CRACKER"
+     },
+     "Wednesday": {
+      "breakfast": "PANCAKE  W/ CHOCOLATE & BERRIES",
+      "breakfast_opt": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "lunch": "CHICKEN GREEN CURRY",
+      "lunch_opt": {
+       "classic": "BEEF BOLOGNESE",
+       "hp": "VEGGIE CHICKEN W/ RICE"
+      },
+      "dinner": "CHICKEN W/ MUSHROOM SAUCE & RICE",
+      "dinner_opt": {
+       "classic": "CHICKEN VEGGIES STIR FRY",
+       "hp": "CHICKEN COLESLAW SALAD"
+      },
+      "amsnack": "CHOCOLATE RICE CAKE",
+      "amsnack_opt": "SEMOLINA KUNAFA",
+      "pmsnack": "GREEN SALAD",
+      "pmsnack_opt": "POTATO SOUP"
+     },
+     "Thursday": {
+      "breakfast": "EGG TACO",
+      "breakfast_opt": "HALLOUMI ZA’ATAR WRAP",
+      "lunch": "SALMON MACHBOOS",
+      "lunch_opt": {
+       "classic": "RED BASIL PASTA",
+       "hp": "LEMON ZA’ATAR CHICKEN"
+      },
+      "dinner": "BEEF MUSHROOM SWISS BURGER",
+      "dinner_opt": {
+       "classic": "CHICKEN  W/ GREEN SAUCE & RICE",
+       "hp": "CHICKEN PROTEIN SALAD"
+      },
+      "amsnack": "PEANUTBUTTER BALLS",
+      "amsnack_opt": "SHOGAG CUP CAKE",
+      "pmsnack": "CRISPY RICE SALAD",
+      "pmsnack_opt": "CORN SOUP"
+     },
+     "Friday": {
+      "breakfast": "ZA’ATAR FATAYER",
+      "breakfast_opt": "ZUCCHINI EGG",
+      "lunch": "CHICKEN TAJEN",
+      "lunch_opt": {
+       "classic": "DAOWD BASHA",
+       "hp": "CHICKEN FAJITA WRAP"
+      },
+      "dinner": "SPANISH CHICKEN",
+      "dinner_opt": {
+       "classic": "ALMOND CHICKEN",
+       "hp": "SALMON PROTEIN SALAD"
+      },
+      "amsnack": "COCONUT CHEESECAKE",
+      "amsnack_opt": "BOUNTY",
+      "pmsnack": "FATTOUSH SALAD",
+      "pmsnack_opt": "ROCCA SALAD"
+     }
+    }
+   },
+   {
+    "week": 4,
+    "days": {
+     "Saturday": {
+      "breakfast": "WAFFLE W/ MAPLE & BERRIES",
+      "breakfast_opt": "EGG W// MUSHROOOM",
+      "lunch": "BEEF BOLOGNESE",
+      "lunch_opt": {
+       "classic": "SALMON PESTOCHURRI PASTA",
+       "hp": "CHICKEN TIKKA"
+      },
+      "dinner": "CHICKEN FAJITA W/ RICE",
+      "dinner_opt": {
+       "classic": "ASIAN GRILLED CHICKEN W/ POTATO",
+       "hp": "VEGGIE CHICKEN SALAD"
+      },
+      "amsnack": "VANILLA MUFFINS",
+      "amsnack_opt": "PISTACHIO CAKE",
+      "pmsnack": "HALLOUMI SALAD",
+      "pmsnack_opt": "CHICKEN MADROUBA"
+     },
+     "Sunday": {
+      "breakfast": "EGG TOAST",
+      "breakfast_opt": "OATMEAL W/ RASPBERRY JAM",
+      "lunch": "PERSIAN CHICKEN",
+      "lunch_opt": {
+       "classic": "CREAMY CHICKEN TAGLIATELLE PASTA",
+       "hp": "SHRIMP BIRYANI"
+      },
+      "dinner": "CHEESY KEEMA SANDWICH",
+      "dinner_opt": {
+       "classic": "CHICKEN RANCH PIZZA",
+       "hp": "SALMON PROTEIN SALAD"
+      },
+      "amsnack": "CHOCO DATES CAKE",
+      "amsnack_opt": "BLUEBERRY CHEESECAKE BITES",
+      "pmsnack": "POTATO SOUP",
+      "pmsnack_opt": "BABAGANOUSH SALAD"
+     },
+     "Monday": {
+      "breakfast": "CROISSANT W/ SCRAMBLED EGG",
+      "breakfast_opt": "PARFAIT W/ GRANOLA,HONEY & BERRIES",
+      "lunch": "TRADITIONAL PASTA",
+      "lunch_opt": {
+       "classic": "CHICKEN TAJEN",
+       "hp": "CHICKEN ALFREDO PASTA"
+      },
+      "dinner": "CHICKEN VEGGIES STIR FRY",
+      "dinner_opt": {
+       "classic": "BEEF PESTO WRAP",
+       "hp": "CHICKEN BURRITO SALAD"
+      },
+      "amsnack": "CINNAMON TWIST BREAD",
+      "amsnack_opt": "CHOCOLATE MOUSSE W/ COCOA NIBS",
+      "pmsnack": "SALTED RICE POP CRACKER",
+      "pmsnack_opt": "GREEK SALAD"
+     },
+     "Tuesday": {
+      "breakfast": "HUMMUS W/ BROWN BREAD",
+      "breakfast_opt": "TURKEY SANDWICH",
+      "lunch": "CHICKEN SHAWARMA PLATTER",
+      "lunch_opt": {
+       "classic": "GRILLED SHRIMP W/ CHERMOULA SAUCE",
+       "hp": "GRILLED KOFTAH W/ POTATO & RICE"
+      },
+      "dinner": "CRISPY CHICKEN WRAP",
+      "dinner_opt": {
+       "classic": "CHICKEN W/ MUSHROOM SAUCE * RICE",
+       "hp": "BEEF PROTEIN SALAD"
+      },
+      "amsnack": "COCONUT CHEESECAKE",
+      "amsnack_opt": "MINI CHOCO PANCAKE",
+      "pmsnack": "VEGGIE W/ VERMICELLI SOUP",
+      "pmsnack_opt": "TABBOULEH W/ QUINOA SALAD"
+     },
+     "Wednesday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "LABNEH ZA’ATAR SAMOSA",
+      "lunch": "CHICKEN GREEN CURRY",
+      "lunch_opt": {
+       "classic": "GRILLED CHICKEN PASTA",
+       "hp": "LEMON GARLIC WHITE FISH"
+      },
+      "dinner": "CHICKEN SHAWARMA SANDWICH",
+      "dinner_opt": {
+       "classic": "ONION BEEF STEAK W/ VEGGIES",
+       "hp": "BOILED EGG CRUNCH BOWL"
+      },
+      "amsnack": "DATE BALLS",
+      "amsnack_opt": "PISTACHIO YOGURT CAKE",
+      "pmsnack": "FETA  PASTA SALAD",
+      "pmsnack_opt": "ZA’ATAR RICE POP CRACKER"
+     },
+     "Thursday": {
+      "breakfast": "EGG TACOS",
+      "breakfast_opt": "OATMEAL W/ BERRIES & PEANUTBUTTER",
+      "lunch": "CHICKEN BIRYANI",
+      "lunch_opt": {
+       "classic": "SALMON PATTY W/ LEMON SAUCE",
+       "hp": "CHICKEN SAFFRON RISOTTO"
+      },
+      "dinner": "GRILLED CHICKEN W/ GREEN SAUCE & RICE",
+      "dinner_opt": {
+       "classic": "CLASSIC BEEF BURGER",
+       "hp": "FETA CHICKEN SALAD"
+      },
+      "amsnack": "MATCHA BALLS",
+      "amsnack_opt": "GRANOLA BAR",
+      "pmsnack": "CRISPY RICE SALAD",
+      "pmsnack_opt": "LENTIL SOUP"
+     },
+     "Friday": {
+      "breakfast": "PARFAIT W/ APRICOT JAM & GRANOLA",
+      "breakfast_opt": "CLUB SANDWICH",
+      "lunch": "LEMON ZA’ATAR CHICKEN",
+      "lunch_opt": {
+       "classic": "CHICKEN TIKKA W/ BUKHARI RICE",
+       "hp": "BEEF BIRYANI"
+      },
+      "dinner": "CAJUN CHICKEN",
+      "dinner_opt": {
+       "classic": "ALMOND CHICKEN",
+       "hp": "CHICKEN COLESLAW SALAD"
+      },
+      "amsnack": "BASBOUSA TART",
+      "amsnack_opt": "CHOCOLATE CRUCH COOKIES",
+      "pmsnack": "CAESAR SALAD",
+      "pmsnack_opt": "ROCCA SALAD"
+     }
+    }
+   }
+  ]
+ },
+ "keto": {
+  "anchor": "2026-10-03",
+  "offDay": null,
+  "weeks": [
+   {
+    "week": 1,
+    "days": {
+     "Saturday": {
+      "breakfast": "KETO CHEESE FATAYER",
+      "breakfast_opt": "KETO WAFFLE W/ CHOCOLATE & BERRIES",
+      "lunch": "KETO MUTABAQ CHICKEN",
+      "lunch_opt": "KETO THAI BEEF",
+      "dinner": "KETO PEPPERONI PIZZA",
+      "dinner_opt": "KETO CHICKEN EGGPLANT ROLL",
+      "amsnack": "HALLOUMI SALAD",
+      "amsnack_opt": "KETO FATTOUSH SALAD",
+      "pmsnack": "KARKADE JELLY",
+      "pmsnack_opt": "KETO BASBOSA TART"
+     },
+     "Sunday": {
+      "breakfast": "KETO BAGEL W/ CHEESE",
+      "breakfast_opt": "KETO EGG WRA P",
+      "lunch": "LEMON GARLIC WHITE FISH",
+      "lunch_opt": "KETO CHICKEN  W/ MUSHROOM SAUCE",
+      "dinner": "BEEF W/ TOMATO SALSA",
+      "dinner_opt": "KETO BAKED BBQ FRENCH CHICKEN",
+      "amsnack": "KETO VEGGIES STICKS",
+      "amsnack_opt": "KETO PINK SALAD",
+      "pmsnack": "KETO COCONUT CHEESECAKE",
+      "pmsnack_opt": "CHOCO GRANOLA BAR"
+     },
+     "Monday": {
+      "breakfast": "KETO PANCAKE W/ MAPLE & BERRIES",
+      "breakfast_opt": "KETO EGG W/ MUSHROOM + KETO BREAD",
+      "lunch": "KETO ENCHILADA",
+      "lunch_opt": "KETO CHICKEN KOFTAH W/ CAULIFLOWER RICE",
+      "dinner": "KETO BEEF STEAK ZUCCHINI NOODLES W/ GREEN SAUCE",
+      "dinner_opt": "KETO SPANISH CHICKEN",
+      "amsnack": "KETO GRAPE LEAVES MADROUBA",
+      "amsnack_opt": "KETO CAESAR SALAD",
+      "pmsnack": "KETO TIRAMISU",
+      "pmsnack_opt": "MINI CHOCO PANCAKE"
+     },
+     "Tuesday": {
+      "breakfast": "KETO SPINACH FATAYER",
+      "breakfast_opt": "KETO EGG MUFFINS W/ KETO BREAD",
+      "lunch": "KETO SHRIMP W/ CREAMY LEMON SAUCE",
+      "lunch_opt": "KETO CHICKEN ZUCCHINI ALFREDO PASTA",
+      "dinner": "KETO ONION BEEF STEAK W/ SAUTEED VEGGIES",
+      "dinner_opt": "KETO FRIED CHICKEN",
+      "amsnack": "KETO MIX HERB SALAD",
+      "amsnack_opt": "KETO TABOULEH SALAD",
+      "pmsnack": "KETO PISTACHIO CAKE",
+      "pmsnack_opt": "KETO BROWNIES CHEESECAKE MUFFINS"
+     },
+     "Wednesday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "KETO PARFAIT",
+      "lunch": "KETO BEEF LASAGNA",
+      "lunch_opt": "BBQ CHICKEN ZUCCHINI PESTO",
+      "dinner": "KETO BEEF W/ MUSHROOM SAUCE",
+      "dinner_opt": "GRILLED CHICKEN WITH SUNDRIED TOMATO SAUCE",
+      "amsnack": "KETO CREAMY VEGGIE SOUP",
+      "amsnack_opt": "KETO ROCCA SALAD",
+      "pmsnack": "MATCHA BALLS",
+      "pmsnack_opt": "KETO BOUNTY"
+     },
+     "Thursday": {
+      "breakfast": "KETO PEPPERONI EGG SANDWICH",
+      "breakfast_opt": "KETO WAFFLE W/ MAPLE & BERRIES",
+      "lunch": "SHRIMP BIRYANI",
+      "lunch_opt": "CHICKEN VEGGIE STIR FRY",
+      "dinner": "KETO MOZZARELLA MEATBALLS W/ MASHED CAULIFLOWER",
+      "dinner_opt": "KETO CHICKEN CURRY",
+      "amsnack": "SPINACH SALAD W/ RANCH SAUCE",
+      "amsnack_opt": "BROCCOLI SOUP",
+      "pmsnack": "BLUBERRY CHEESECAKE BITES",
+      "pmsnack_opt": "KETO LEMON TART"
+     },
+     "Friday": {
+      "breakfast": "KETO CREAMCHEESE SCRAMBLED EGG W/ KETO BREAD",
+      "breakfast_opt": "KETO CHEESE FATAYER",
+      "lunch": "THAI CHICKEN",
+      "lunch_opt": "BEEF STEAK W/ SAUTEED VEGGIES",
+      "dinner": "KETO CHICKEN FAJITA",
+      "dinner_opt": "KETO CHICKEN ZUCCHINI W/ GREEN SAUCE",
+      "amsnack": "GREEN SAALAD",
+      "amsnack_opt": "ASIAN CHICKEN SOUP",
+      "pmsnack": "KETO KUNAFA",
+      "pmsnack_opt": "KETO MILK CAKE"
+     }
+    }
+   },
+   {
+    "week": 2,
+    "days": {
+     "Saturday": {
+      "breakfast": "KETO CHEESE QUESADILLA",
+      "breakfast_opt": "KETO EGG WRAP",
+      "lunch": "BLACKENED SALMON",
+      "lunch_opt": "KETO PARMESAN CHICKEN",
+      "dinner": "BEEF W/ TOMATO SALSA",
+      "dinner_opt": "KETO SHEESH TAWOOQ",
+      "amsnack": "KETO GRILLED VEGGIES SALAD",
+      "amsnack_opt": "KETO EGG SALAD",
+      "pmsnack": "KETO BERRIES CHEESES CAKE",
+      "pmsnack_opt": "MINI CHOCO PANCAKE"
+     },
+     "Sunday": {
+      "breakfast": "KETO LABNEH ZA’ATAR FATAYER",
+      "breakfast_opt": "KETO EGG MUFFINS W/ KETO BREAD",
+      "lunch": "KETO VEGGIES PIZZA",
+      "lunch_opt": "LEMON PEPPER CHICKEN",
+      "dinner": "KETO CHICKEN ZUCCHINI NOODLES W/ GREEN SAUCE",
+      "dinner_opt": "KETO KOREAN MEAT BALLS",
+      "amsnack": "KETO CHICKEN MADROUBA",
+      "amsnack_opt": "HALLOUMI SALAD",
+      "pmsnack": "KETO BEETROOT CAKE",
+      "pmsnack_opt": "PEANUTBUTTER BALLS"
+     },
+     "Monday": {
+      "breakfast": "KETO EGG QUESADILLA",
+      "breakfast_opt": "KETO ZA’ATAR FATAYER",
+      "lunch": "GRILLED SHRIMP W/ CHERMOULA SAUCE",
+      "lunch_opt": "KETO CHICKEN FAJITA",
+      "dinner": "KETO BAKED BBQ FRENCH CHICKEN",
+      "dinner_opt": "KETO ONION BEEF STEAK W/ SAUTEED VEGGIES",
+      "amsnack": "ROCCA SALAD",
+      "amsnack_opt": "GREEK SALAD",
+      "pmsnack": "CHOCOLATE  CRUNCH COOKIES",
+      "pmsnack_opt": "GRANOLA BAR"
+     },
+     "Tuesday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "KETO BAKED CAULIFLOWER W/ BUFFALO SAUCE",
+      "lunch": "CHICKEN VEGGIES STIR FRY",
+      "lunch_opt": "KETO GRILLED CHICKEN W/ SUNDRIED TOMATO SAUCE",
+      "dinner": "KETO MUSTARD CHICKEN",
+      "dinner_opt": "KETO BEEF LASAGNA",
+      "amsnack": "KETO TABOULEH SALAD",
+      "amsnack_opt": "KETO CAESAR SALAD",
+      "pmsnack": "KARKADE JELLY",
+      "pmsnack_opt": "CHOCOLATE CHIA PUDDING"
+     },
+     "Wednesday": {
+      "breakfast": "SPINACH FATAYER",
+      "breakfast_opt": "KETO CREAMCHEESE SCRAMBLED EGG W/ KETO BREAD",
+      "lunch": "LEMON GARLIC WHITE FISH",
+      "lunch_opt": "KETO MARGARITA PIZZA",
+      "dinner": "KETO FRIED CHICKEN",
+      "dinner_opt": "KETO BEEF BROCCOLI STIR FRY",
+      "amsnack": "KETO PINK SALAD",
+      "amsnack_opt": "KETO ASIAN CHICKEN SOUP",
+      "pmsnack": "KETO COCONUT CHEESECAKE",
+      "pmsnack_opt": "MATCHA BALLS"
+     },
+     "Thursday": {
+      "breakfast": "KETO EGG MUFFINS W/ KETO BREAD",
+      "breakfast_opt": "KETO PANCAKE W/ CHOCOLATE SPREAD",
+      "lunch": "KETO PARMESAN CHICKEN",
+      "lunch_opt": "KETO VEGETARIAN TACO",
+      "dinner": "KETO STEAK PESTO W/ MASHED CAULIFLOWER",
+      "dinner_opt": "KETO CHICKEN KEBAB W/ CAULIFLOWER RICE",
+      "amsnack": "KETO BROCCOLI SOUP",
+      "amsnack_opt": "KETO ROCCA SALAD",
+      "pmsnack": "KETO CHOCOLATE MOUSSE W/ COCOA NIBS",
+      "pmsnack_opt": "PISTACHIO MINI PANCAKE"
+     },
+     "Friday": {
+      "breakfast": "KETO EGG WRAP",
+      "breakfast_opt": "KETO CHEESE FATAYER",
+      "lunch": "FISH FILLET W/ TARTAR SAUCE",
+      "lunch_opt": "KETO CHICKEN MAJBOOS",
+      "dinner": "KETO BEEF FAJITA",
+      "dinner_opt": "KETO CHICKEN W/ MUSHROOM SAUCE",
+      "amsnack": "KETO CAESAR SALAD",
+      "amsnack_opt": "GREEN SALAD",
+      "pmsnack": "KETO BASBOUSA TART",
+      "pmsnack_opt": "BOUNTY"
+     }
+    }
+   },
+   {
+    "week": 3,
+    "days": {
+     "Saturday": {
+      "breakfast": "KETO ZA’ATAR FATAYER",
+      "breakfast_opt": "KETO BAGEL W/ SCRAMBLED EGG",
+      "lunch": "SALMON PATTY W/ CREAMY LEMON SAUCE",
+      "lunch_opt": "KETO CHICKEN CROSTA",
+      "dinner": "THAI BEEF",
+      "dinner_opt": "SPANISH CHICKEN",
+      "amsnack": "KETO FATTOUSH SALAD",
+      "amsnack_opt": "KETO GRAPE LEAVES MADROUBA",
+      "pmsnack": "BERRIES CHIA PUDDING",
+      "pmsnack_opt": "KETO BUTTERED COOKIES"
+     },
+     "Sunday": {
+      "breakfast": "KETO WAFFLE W/ MAPLE & BERRIES",
+      "breakfast_opt": "KETO FRIED HALLOUMI W/ ASPARAGUS",
+      "lunch": "KETO DOLMA",
+      "lunch_opt": "KETO CHICKEN ZUCCHINI ALFREDO PASTA",
+      "dinner": "KETO CHICKEN CURRY W/ KETO BREAD",
+      "dinner_opt": "KETO CHICKEN W/ SPINACH & CHEESE",
+      "amsnack": "KETO EGG SALAD",
+      "amsnack_opt": "KETO CREAMY VEGGIE SOUP",
+      "pmsnack": "PEANUTBUTTER BALLS",
+      "pmsnack_opt": "MILK CAKE"
+     },
+     "Monday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "KETO BAKED CAULIFLOWER W/ BUFFALO SAUCE",
+      "lunch": "GRILLED SHRIMP W/ CHERMOULA SAUCE",
+      "lunch_opt": "KETO CHICKEN MUSSAKHAN",
+      "dinner": "BEEF W/ TOMATO SALSA",
+      "dinner_opt": "KETO MUSTARD CHICKEN",
+      "amsnack": "HALLOUMI SALAD",
+      "amsnack_opt": "KETO CAESAR SALAD",
+      "pmsnack": "MATCHA BALLS",
+      "pmsnack_opt": "MINI CHOCO PANCAKE"
+     },
+     "Tuesday": {
+      "breakfast": "KETO CHEESE FATAYER",
+      "breakfast_opt": "KETO EGG WRAP",
+      "lunch": "KETO CHICKEN RANCH PIZZA",
+      "lunch_opt": "KETO BEEF LASAGNA",
+      "dinner": "KETO CHICKEN BIRYANI",
+      "dinner_opt": "KETO BEEF ZUCCHINI NOODLES W/ GREEN SAUCE",
+      "amsnack": "KETO ASIAN CHICKEN SOUP",
+      "amsnack_opt": "KETO GRILLED VEGGIE SALAD",
+      "pmsnack": "KETO BASBOSA TART",
+      "pmsnack_opt": "BLUBERRY CHEESECAKE BITES"
+     },
+     "Wednesday": {
+      "breakfast": "KETO PEPPERONI EGG SANDWICH",
+      "breakfast_opt": "KETO PARFAIT",
+      "lunch": "LEMON GARLIC WHITE FISH",
+      "lunch_opt": "CHICKEN VEGGGIES STIR FRY",
+      "dinner": "KETO STEAK PESTO W/ MASHED CAULIFLOWER",
+      "dinner_opt": "LEMON PEPPER CHICKEN",
+      "amsnack": "KETO VEGGIE STICKS",
+      "amsnack_opt": "KETO GREEN SALAD",
+      "pmsnack": "KETO BROWNIES CHEESECAKE MUFFINS",
+      "pmsnack_opt": "CHOCO GRANOLA BAR"
+     },
+     "Thursday": {
+      "breakfast": "KETO FRIED HALLOUMI W/ ASPARAGUS",
+      "breakfast_opt": "KETO SPINACH FATAYER",
+      "lunch": "KETO ENCHILADA",
+      "lunch_opt": "KETO SPINACH CHICKEN ROLL",
+      "dinner": "KETO CHICKEN KEBAB W/ CAULIFLOWER RICE",
+      "dinner_opt": "KETO BEEF W/ MUSHROOM SUACE",
+      "amsnack": "KETO PINK SALAD",
+      "amsnack_opt": "KETO BROCCOLI SOUP",
+      "pmsnack": "PISTACHIO MINI PANCAKE",
+      "pmsnack_opt": "KETO SHOGAG CUPCAKE"
+     },
+     "Friday": {
+      "breakfast": "KETO ZA’ATAR FATAYER",
+      "breakfast_opt": "KETO PANCAKE W/ MAPLE & BERRIES",
+      "lunch": "KETO CHICKEN FATTA",
+      "lunch_opt": "KETO BEEF BOLOGNESE",
+      "dinner": "THAI CHICKEN",
+      "dinner_opt": "KETO CHICKEN CROSTA",
+      "amsnack": "KETO ROCCA SALAD",
+      "amsnack_opt": "KETO GREEN SALAD",
+      "pmsnack": "KETO KUNAFA",
+      "pmsnack_opt": "KETO COCONUT CHEESECAKE"
+     }
+    }
+   },
+   {
+    "week": 4,
+    "days": {
+     "Saturday": {
+      "breakfast": "KETO WAFFLES W/ MAPLE & BERRIES",
+      "breakfast_opt": "KETO BAKED CAULIFLOWER W/ BUFFALO SAUCE",
+      "lunch": "KETO CHICKEN CURRY W/ KETO BREAD",
+      "lunch_opt": "BEEF W/ TOMATO SALSA",
+      "dinner": "KETO BBQ CHICKEN PIZZA",
+      "dinner_opt": "KETO CHICKEN EGGPLANT ROLL",
+      "amsnack": "KETO GREEN SAUCE SALAD",
+      "amsnack_opt": "KETO CAESAR SALAD",
+      "pmsnack": "BOUNTY",
+      "pmsnack_opt": "KETO MILK CAKE"
+     },
+     "Sunday": {
+      "breakfast": "KETO EGG MUFFIN",
+      "breakfast_opt": "KETO SPINACH FATAYER",
+      "lunch": "KETO BECHAMEL",
+      "lunch_opt": "KETO CHICKEN MUSSAKHAN",
+      "dinner": "KETO LEMON PEPPER CHICKEN",
+      "dinner_opt": "KETO FRIED CHICKEN",
+      "amsnack": "KETO ASIAN CHICKEN SOUP",
+      "amsnack_opt": "KETO GRILLED VEGGIE SALAD",
+      "pmsnack": "MATCHA BALLS",
+      "pmsnack_opt": "KETO BERRIES CHIA PUDDING"
+     },
+     "Monday": {
+      "breakfast": "KETO PANCAKE W/ CHOCOLATE SPREAD",
+      "breakfast_opt": "KETO CREAMCHEESE SCRAMBLED EGG W/ KETO BREAD",
+      "lunch": "KETO BLACKENED SALMON",
+      "lunch_opt": "KETO CHICKEN KOFTAH W/ CAULIFLOWER RICE",
+      "dinner": "KETO ONION BEEF STEAK W/ SAUTEED VEGGIES",
+      "dinner_opt": "PARMESAN CHICKEN",
+      "amsnack": "HALLOUMI SALAD",
+      "amsnack_opt": "MUSHROOM SOUP",
+      "pmsnack": "KETO TIRAMISU",
+      "pmsnack_opt": "KETO CHOCOLATE MOUSSE W/ COCOA NIBS"
+     },
+     "Tuesday": {
+      "breakfast": "CABBAGE FRITTER W/ SCRAMBLED EGG",
+      "breakfast_opt": "KETO BAGEL W/ SCRAMBLED EGG",
+      "lunch": "KETO CHICKEN FATTA",
+      "lunch_opt": "CHICKEN VEGGIES STIR FRY",
+      "dinner": "KETO BBQ CHICKEN ZUCCHINI PESTO",
+      "dinner_opt": "KETO CHICKEN BIRYANI",
+      "amsnack": "KETO GREEN SALAD",
+      "amsnack_opt": "BOILED EGG CRUNCH SALAD",
+      "pmsnack": "MINI CHOCO PANCAKE",
+      "pmsnack_opt": "PEANUTBUTTER BALLS"
+     },
+     "Wednesday": {
+      "breakfast": "KETO PARFAIT",
+      "breakfast_opt": "KETO EGG WRAP",
+      "lunch": "KETO CHICKEN KEBAB W/ CAULIFLOWER RICE",
+      "lunch_opt": "KETO VEGGIES PIZZA",
+      "dinner": "KETO CHICKEN CROSTA",
+      "dinner_opt": "KETO THAI BEEF",
+      "amsnack": "KETO BROCCOLI SOUP",
+      "amsnack_opt": "KETO BEETROOT SALAD",
+      "pmsnack": "KETO LEMON TART",
+      "pmsnack_opt": "KETO CHOCOLATE CHIA PUDDING"
+     },
+     "Thursday": {
+      "breakfast": "KETO LABNAH ZA’ATAR FATAYER",
+      "breakfast_opt": "KETO FRIED HALLOUMI W/ ASPARAGUS",
+      "lunch": "KETO SHRIMP  W/ CREAMY LEMON SAUCE",
+      "lunch_opt": "KETO ENCHILADA",
+      "dinner": "KETO BEEF BROCCOLI STIR FRY",
+      "dinner_opt": "KETO CHICKEN FAJITA",
+      "amsnack": "KETO ROCCA SALAD",
+      "amsnack_opt": "KETO CREAMY VEGGIE SOUP",
+      "pmsnack": "BASBOUSA TART",
+      "pmsnack_opt": "GRANOLA BAR"
+     },
+     "Friday": {
+      "breakfast": "KETO CREAMCHEESE SCRAMBLED EGG W/ KETO BREAD",
+      "breakfast_opt": "KETO BAGEL W/ TURKEY",
+      "lunch": "FISH FILLET W/ TARTAR SAUCE",
+      "lunch_opt": "KETO MUSTARD CHICKEN",
+      "dinner": "KETO CHICKEN MAJBOOS",
+      "dinner_opt": "KETO BEEF ZUCCHINI NOODLES W/ GREEN SAUCE",
+      "amsnack": "KETO CAESAR SALAD",
+      "amsnack_opt": "KETO GREEK SALAD",
+      "pmsnack": "CHOCO CRDUNCH COOKIES",
+      "pmsnack_opt": "MILK CAKE"
+     }
+    }
+   }
+  ]
+ }
+}

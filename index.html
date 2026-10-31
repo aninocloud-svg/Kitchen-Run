@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Kitchen Run | Anino Cloud</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="gate">
+  <div class="gate-box">
+    <img src="logo.svg" alt="Anino Cloud">
+    <h1>Kitchen Run</h1>
+    <p id="gLead">Enter your email and we will send you a sign-in code.</p>
+    <div id="gLoading" class="gate-load">Checking your session…</div>
+    <div id="gTabs" class="gate-tabs" hidden><button type="button" id="gtIn" class="on">Sign in</button><button type="button" id="gtUp">Sign up</button></div>
+    <form id="gForm1" hidden autocomplete="on">
+      <div id="gNameWrap" hidden><label for="gName">Your name</label><input id="gName" type="text" autocomplete="name"></div>
+      <div><label for="gEmail">Email</label><input id="gEmail" type="email" autocomplete="email" required></div>
+      <button class="primary" id="gSend" type="submit">Email me a code</button>
+    </form>
+    <form id="gForm2" hidden>
+      <p class="gate-sent">We sent a code to <b id="gSentTo"></b>.</p>
+      <div><label for="gCode">Code</label><input id="gCode" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="10" required></div>
+      <button class="primary" id="gVerify" type="submit">Verify and continue</button>
+      <div class="gate-links"><button type="button" id="gResend">Resend code</button><button type="button" id="gBack">Use a different email</button></div>
+    </form>
+    <div id="gPending" hidden>
+      <h2 id="gPendTitle"></h2><p id="gPendText"></p>
+      <div class="gate-links"><button type="button" id="gRecheck">Check again</button><button type="button" id="gPendingOut">Sign out</button></div>
+    </div>
+    <p id="gMsg" role="alert"></p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="bar"><div class="bar-in">
+  <div id="wsBanner" class="ws-banner" hidden>Editing the workspace of <b id="wsWho"></b> <button id="wsBack" type="button">Back to my workspace</button></div>
+  <div class="app-head">
+    <div class="brand">
+      <div class="brand-logo" data-logo aria-label="Anino Cloud logo"></div>
+      <div>
+        <h1>Kitchen Run</h1>
+        <div class="sub mono">Production system</div>
+      </div>
+    </div>
+    <div class="datebar">
+      <div class="field" style="flex:0 1 160px;"><label for="prodDate">Production date</label><input type="date" id="prodDate"></div>
+      <span id="dateReadout" class="status-pill pill-dim mono">—</span>
+      <span id="todayReadout" class="status-pill pill-dim mono">—</span>
+      <span id="saveState" class="status-pill pill-dim mono">—</span>
+      <span id="whoAmI" class="status-pill pill-dim mono"></span>
+      <button id="signOut" class="ghost" style="color:#A8A8A8;">Sign out</button>
+    </div>
+  </div>
+  </div></div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" data-tab="home" aria-selected="true">Home</button>
+    <button class="tab" data-tab="data" aria-selected="false">Customer data <span class="n" id="rosterCount">0</span></button>
+    <button class="tab" data-tab="menu">Meal sheets</button>
+    <button class="tab" data-tab="sheet">Production sheet <span class="n" id="eligCount">0</span></button>
+    <button class="tab" data-tab="manual">Manual clients <span class="n" id="manualCount">0</span></button>
+    <button class="tab" data-tab="orders">Protein &amp; carb orders</button>
+    <button class="tab" data-tab="team" aria-selected="false" hidden>Team <span class="n" id="teamCount">0</span></button>
+    <button class="tab" data-tab="detail">Customer meals</button>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <section class="panel active" id="panel-home">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Daily operations</div>
+        <h2>One sheet runs <em>the whole kitchen</em></h2>
+        <p>Register customers, track freezes and due dates, then build the production sheet, the manual list and the protein and carb orders from the same customer data.</p>
+        <div class="ctas">
+          <button class="primary" id="hBuild">Build production sheet</button>
+          <button id="hReg">Register a customer</button>
+        </div>
+      </div>
+      <div class="ticket" aria-label="Production ticket">
+        <div class="t-head"><span>Kitchen ticket</span><span id="tWeek">—</span></div>
+        <div class="t-date" id="tDate">—</div>
+        <div class="t-line"><span>Boxes serving</span><b id="tBoxes">0</b></div>
+        <div class="t-line"><span>Active customers</span><b id="tActive">0</b></div>
+        <div class="t-line"><span>Frozen today</span><b id="tFrozen">0</b></div>
+        <div class="t-nav">
+          <button id="tPrev" aria-label="Previous day">&larr; Day</button>
+          <button id="tToday">Today</button>
+          <button id="tNext" aria-label="Next day">Day &rarr;</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="kpis">
+      <button class="kpi gold" data-go="data" data-status="Active"><span class="num" data-n id="kActive">0</span><span class="lbl">Active customers</span></button>
+      <button class="kpi" data-go="data" data-status="Frozen"><span class="num" data-n id="kFrozen">0</span><span class="lbl">Frozen</span></button>
+      <button class="kpi" data-go="data" data-status="Expired"><span class="num" data-n id="kExpired">0</span><span class="lbl">Expired</span></button>
+      <button class="kpi" data-go="data" data-status="all"><span class="num" data-n id="kAll">0</span><span class="lbl">Registered in total</span></button>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>Active by package</h2>
+        <div id="hMix"></div>
+        <p class="foot-note" style="margin:8px 0 0;">Select a package to open it in Customer data.</p>
+      </div>
+      <div class="card">
+        <h2>Ending within 3 days</h2>
+        <div class="soon" id="hSoon"></div>
+      </div>
+    </div>
+
+    <div class="flow">
+      <button class="step" data-go="data"><h3>Customer data</h3><p>Register customers, tick off days, switch freezes on and off, import or export the Excel sheet.</p><span class="go">Open sheet &rarr;</span></button>
+      <button class="step" data-go="menu"><h3>Meal sheets</h3><p>The monthly Simple Diet, Macro and Keto menus that feed each day's sheet.</p><span class="go">Open menus &rarr;</span></button>
+      <button class="step" data-go="sheet"><h3>Production sheet</h3><p>Box numbers per dish, counts of every meal, snacks and breakfasts, dislikes included.</p><span class="go">Open production &rarr;</span></button>
+      <button class="step" data-go="manual"><h3>Manual clients</h3><p>Food schedules and meals that could not be made because of dislikes, listed by box.</p><span class="go">Open list &rarr;</span></button>
+      <button class="step" data-go="orders"><h3>Protein &amp; carb orders</h3><p>Kilograms to order for each protein and carb, with a buffer you set.</p><span class="go">Open orders &rarr;</span></button>
+    </div>
+  </section>
+
+  <!-- ============ SHEET 1: CUSTOMER DATA ============ -->
+  <section class="panel" id="panel-data">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">Customer data</h2>
+        <div class="row">
+          <button class="primary" id="regOpen">+ Register customer</button>
+          <button id="wbExport">Export workbook (Excel)</button>
+        </div>
+      </div>
+      <div class="row" style="margin-top:12px;">
+        <div class="field" style="flex:2 1 260px;"><label for="custFile">Load a customer data workbook (.xlsx)</label><input type="file" id="custFile" accept=".xlsx,.xls"></div>
+        <div class="field" style="flex:1 1 220px;"><label for="loadMode">When loading</label>
+          <select id="loadMode"><option value="merge">Add new boxes, update the ones already here</option><option value="replace">Replace everything</option></select></div>
+      </div>
+      <p id="custStatus" class="foot-note" style="margin-top:8px;">No customers yet. Register one or load a workbook.</p>
+      <p class="foot-note" id="storeNote">The customer data is kept on this device. Export the workbook after changes to keep a copy; the same file can be loaded again.</p>
+    </div>
+
+    <div class="card" id="regCard" hidden>
+      <h2 id="regTitle">Register customer</h2>
+      <form id="regForm" autocomplete="off">
+        <h3>Customer · columns A to E</h3>
+        <div class="row">
+          <div class="field" style="flex:0 1 150px;"><label for="r_hk">A · HK</label>
+            <select id="r_hk"><option value="keto">Keto</option><option value="macro">Macro</option><option value="simple">Simple Diet</option></select></div>
+          <div class="field" style="flex:0 1 130px;"><label for="r_status">B · Status</label>
+            <select id="r_status"><option value="ACTIVE">Active</option><option value="EXPIRED">Expired</option></select></div>
+          <div class="field"><label for="r_contact">C · Contact number</label><input type="text" id="r_contact" inputmode="tel"></div>
+          <div class="field" style="flex:0 1 120px;"><label for="r_box">D · Box number</label><input type="text" id="r_box"></div>
+          <div class="field" style="flex:2 1 220px;"><label for="r_name">E · Customer name</label><input type="text" id="r_name"></div>
+        </div>
+
+        <h3>Meal plan · column F</h3>
+        <div class="row">
+          <div class="field" style="flex:2 1 280px;"><label for="r_plan">Meal plan package</label><select id="r_plan"></select></div>
+          <div class="field"><label for="r_gram">Grammages</label>
+            <select id="r_gram"><option value="classic">Classic</option><option value="hp">HP (high protein)</option><option value="custom">Customized per meal</option></select></div>
+        </div>
+        <div id="r_customBox" hidden>
+          <div class="row" style="margin-top:10px;">
+            <div class="field"><label for="r_lp">Lunch protein (g)</label><input type="number" id="r_lp" min="0"></div>
+            <div class="field"><label for="r_lc">Lunch carb (g)</label><input type="number" id="r_lc" min="0"></div>
+            <div class="field"><label for="r_dp">Dinner protein (g)</label><input type="number" id="r_dp" min="0"></div>
+            <div class="field"><label for="r_dc">Dinner carb (g)</label><input type="number" id="r_dc" min="0"></div>
+          </div>
+        </div>
+
+        <h3>Likes and notes · columns G to K</h3>
+        <div class="row">
+          <div class="field"><label for="r_allergies">G · Allergies</label><input type="text" id="r_allergies"></div>
+          <div class="field"><label for="r_removables">H · Dislikes (ingredients)</label><input type="text" id="r_removables" placeholder="e.g. onion, mushroom"></div>
+          <div class="field"><label for="r_dislikemeals">I · Dislike meals</label><input type="text" id="r_dislikemeals" placeholder="e.g. no pasta, no fish"></div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+          <div class="field" style="flex:2 1 260px;"><label for="r_notes">J · Customer notes</label><textarea id="r_notes" rows="2"></textarea></div>
+          <div class="field"><label for="r_packnote">K · Pack note</label><input type="text" id="r_packnote" list="packNotes" placeholder="e.g. FOOD SCHEDULE">
+            <datalist id="packNotes"><option value="FOOD SCHEDULE"></option></datalist></div>
+        </div>
+
+        <h3>Package · columns L to P</h3>
+        <div class="row">
+          <div class="field" style="flex:0 1 150px;"><label for="r_duration">L · Package duration (days)</label><input type="number" id="r_duration" min="1" list="durations">
+            <datalist id="durations"><option value="6"></option><option value="12"></option><option value="24"></option></datalist></div>
+          <div class="field"><label for="r_start">M · Joining date</label><input type="date" id="r_start"></div>
+          <div class="field"><label for="r_due">N · Due date</label><input type="date" id="r_due"></div>
+          <div class="field"><label for="r_dueEff">Due date after freezes</label><input type="text" id="r_dueEff" readonly></div>
+          <div class="field" style="flex:0 1 120px;"><label for="r_remaining">P · Remaining days</label><input type="text" id="r_remaining" readonly></div>
+        </div>
+        <p class="foot-note" id="r_dueHint" style="margin-top:6px;">The due date is worked out from the joining date and duration, skipping the off days. Type a date to override it.</p>
+
+        <h3>Freeze</h3>
+        <label class="chk" style="width:fit-content;"><input type="checkbox" id="r_freezeOn"> Frozen now (switch on while frozen, off to carry on counting)</label>
+        <div class="chiprow" id="r_periods"></div>
+        <div class="row" style="margin-top:10px;">
+          <div class="field" style="flex:0 1 170px;"><label for="r_fzFrom">Add a freeze period · from</label><input type="date" id="r_fzFrom"></div>
+          <div class="field" style="flex:0 1 170px;"><label for="r_fzTo">to</label><input type="date" id="r_fzTo"></div>
+          <button type="button" id="r_fzAdd">Add period</button>
+        </div>
+
+        <h3>Off days · column O</h3>
+        <div class="daychips" id="r_days"></div>
+
+        <h3>Transportation · column R</h3>
+        <div id="r_locs"></div>
+
+        <div id="regError" class="foot-note" style="color:var(--bad); margin-top:10px;" role="alert"></div>
+        <div class="row" style="margin-top:12px;">
+          <button type="submit" class="primary">Save customer</button>
+          <button type="button" id="regCancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <div class="row" style="margin-bottom:10px;">
+        <div class="field" style="flex:2 1 200px;"><label for="gSearch">Search</label><input type="text" id="gSearch" placeholder="Name, box or number"></div>
+        <div class="field" style="flex:1 1 130px;"><label for="gHk">HK</label>
+          <select id="gHk"><option value="all">All</option><option value="keto">Keto</option><option value="macro">Macro</option><option value="simple">Simple Diet</option><option value="app">App</option></select></div>
+        <div class="field" style="flex:1 1 130px;"><label for="gStatus">Status</label>
+          <select id="gStatus"><option value="all">All</option><option value="Active">Active</option><option value="Frozen">Frozen</option><option value="Expired">Expired</option><option value="Ended">Ended</option></select></div>
+      </div>
+      <div id="gridHost"></div>
+    </div>
+  </section>
+
+  <!-- ============ SHEET 2: MEAL SHEETS ============ -->
+  <section class="panel" id="panel-menu">
+    <div class="card">
+      <div class="row" style="justify-content:space-between; flex-wrap:wrap;">
+        <h2 style="margin:0;">Meal sheets for the production date</h2>
+        <div class="row" style="gap:8px;">
+          <button id="autofillBtn">Fill from monthly rotation</button>
+          <button class="ghost" id="loadSample">Load example menu</button>
+        </div>
+      </div>
+      <p class="foot-note" id="menuSourceNote">Each meal has a main dish and its options. Macro lunch and dinner have two options; every customer can be given any of them.</p>
+      <label class="row" style="gap:6px; font-size:.8rem; color:var(--ink-dim); margin-top:4px;">
+        <input type="checkbox" id="autoFollowDate" style="width:auto;"> Fill the meal sheets again whenever the production date changes
+      </label>
+    </div>
+    <div id="menuBuilder"></div>
+  </section>
+
+  <!-- ============ SHEET 3: PRODUCTION SHEET ============ -->
+  <section class="panel" id="panel-sheet">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">Production sheet</h2>
+        <div class="row"><button class="primary" id="runBtn">Refresh</button><button id="exportSheet">Export CSV</button></div>
+      </div>
+      <div id="runSummary" style="margin-top:12px;"><div class="empty">Not run yet.</div></div>
+    </div>
+    <div class="card">
+      <h2>Counts for the day</h2>
+      <div id="countsTable"></div>
+    </div>
+    <div class="card">
+      <div id="sheetTotals"></div>
+      <div id="sheetTable"><div class="empty">Open this sheet to build it.</div></div>
+    </div>
+    <div class="card">
+      <h2>Carbs to prepare</h2>
+      <div id="carbTable"><div class="empty">Open this sheet to build it.</div></div>
+    </div>
+    <details class="card" style="padding:0;">
+      <summary style="padding:12px 16px;">How the sheet is worked out<span class="badge">rules</span></summary>
+      <div class="det-body foot-note" id="rulesBody"></div>
+    </details>
+  </section>
+
+  <!-- ============ SHEET 4: MANUAL CLIENTS ============ -->
+  <section class="panel" id="panel-manual">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">Clients to do by hand</h2>
+        <button id="exportManual">Copy CSV</button>
+      </div>
+      <p class="foot-note" style="margin:6px 0 10px;">Food-schedule clients, plans the app could not read, and meals that could not be given because of dislikes, for the production date.</p>
+      <div id="manualTable"><div class="empty">Open this sheet to build it.</div></div>
+    </div>
+  </section>
+
+  <!-- ============ SHEET 5: PROTEIN & CARB ORDERS ============ -->
+  <section class="panel" id="panel-orders">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">Protein and carb orders</h2>
+        <div class="row">
+          <div class="field" style="flex:0 1 130px;"><label for="ordBuffer">Add buffer (%)</label><input type="number" id="ordBuffer" min="0" max="100" value="0"></div>
+          <button id="exportOrders">Copy CSV</button>
+        </div>
+      </div>
+      <p class="foot-note" style="margin:6px 0 10px;">Totals are the cooked grams written on the sheet (protein = first number, carb = second number). Breakfast and snacks have no grammage, so they are counted as portions only. Simple Diet is weighed at its Classic or HP grammage.</p>
+      <div id="ordersTable"><div class="empty">Open this sheet to build it.</div></div>
+    </div>
+  </section>
+
+  <!-- ============ SHEET 6: CUSTOMER MEALS ============ -->
+  <section class="panel" id="panel-team">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">People using Kitchen Run</h2>
+        <button id="teamRefresh" type="button">Refresh</button>
+      </div>
+      <p class="foot-note">New sign-ups wait here as Pending until you approve them. Each person has their own private workspace. Open a workspace to view and edit that person's customers and sheets; use Back to my workspace in the top bar to return.</p>
+      <div id="teamHost"></div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-detail">
+    <div class="card">
+      <div class="row" style="justify-content:space-between;">
+        <h2 style="margin:0;">What each customer gets</h2>
+        <button id="exportDetail">Export CSV</button>
+      </div>
+      <div id="detailTable"><div class="empty">Open this sheet to build it.</div></div>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
